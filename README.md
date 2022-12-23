@@ -5,7 +5,7 @@ Many organization uses the sharepoint for their use, but it will be very expensi
 
 **Business Requirement**
 
-Extract data from sharepoint directory to local / any cloud storafe for further data processing and transformation.
+Extract data from sharepoint directory to local / any cloud storage for further data processing and transformation.
 
 **Required libraries**
 
