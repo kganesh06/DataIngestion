@@ -10,9 +10,13 @@ Extract data from sharepoint directory to local / any cloud storafe for further 
 **Required libraries**
 
 requests
+
 requests_ntlm
+
 argparse
+
 base64
+
 urllib3
 
 
