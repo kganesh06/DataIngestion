@@ -1,7 +1,8 @@
 # DataIngestion - Extract data from sharepoint using Python
 **Introduction**
 
-Many organizations are using the sharepoint as shared storage, but it will be very expensive to give access to everyone.So above solution automates daily tasks and also it is very cost effective. 
+A python script for getting out data out of sharepoint without any SDK.
+Many organizations are using the sharepoint as shared storage, but it will be very expensive to give access to everyone.So above solution automates daily tasks without any external installation
 
 **Business Requirement**
 
@@ -21,4 +22,6 @@ urllib3
 
 
 **Conclusion**
+
+This very simple and effective way to connect sharepoint sites and lists to download files.
 
