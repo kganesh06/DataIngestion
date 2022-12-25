@@ -2,7 +2,7 @@
 **Introduction**
 
 A python script for getting out data out of sharepoint without any SDK.
-Many organizations are using the sharepoint as shared storage, but it will be very expensive to give access to everyone. So above solution automates daily tasks without any external installation.
+So above solution automates daily tasks without any external installation.
 
 **Business Requirement**
 
