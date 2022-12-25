@@ -46,7 +46,8 @@ class UserAuthentication:
 
         except HTTPError as e:
             pass
-        if result.status_code == requests.codes.ok
+        if result.status_code == requests.codes.ok:
+            return  True
         
 
 
@@ -55,10 +56,10 @@ if __name__=="__main__":
     password = user_credentials['password']
     domain = user_credentials['domain']
 
-    flm_url = f"<sharepoint-file-url>"
+    flm_url = f"<Your sharepoint-site-file-url>"
     flm_file = os.path.join('C:/Users/Ganesh/files')
     auth_object = UserAuthentication(username,password,domain,flm_url, flm_file)
     result = auth_object.authenticate()
 
     if result :
-        print("Successfully logib to site")
+        print("Successfully login to site")
